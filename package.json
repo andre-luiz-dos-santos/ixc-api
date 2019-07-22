@@ -1,9 +1,10 @@
 {
   "name": "ixc-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API do IXC",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": "github:andre-luiz-dos-santos/ixc-api",
   "scripts": {
     "prepublishOnly": "rimraf ./dist && tsc",
     "dev": "rimraf ./dist && tsc --watch"
